@@ -12,7 +12,7 @@ class Program
         int M = int.Parse(magic);
         int G = int.Parse(guess);
         if (M > G)
-        while (M != G)
+        
         {
             Console.Write("Higher");
         }
@@ -24,14 +24,23 @@ class Program
         {
             Console.WriteLine("You guessed it!");
         }
-        /*loops
-        //while (G != M)
+        /* part 2 loops
+        
         {
-            Console.Write("What is the magic number_");
-            string magic = Console.ReadLine();
+            Console.Write("What is the magic number?");
+            string M = Console.ReadLine();
+            int M = int.Parse(M);
+            Console.Write ("What is the guess number?");
+            string G = Console.ReadLine();
+            int G = int.Parse(G);
+        }
+        
+        while (M != G)
+
+            
             Console.Write("What is the guess number?");
             string guess = Console.ReadLine();
-            int M = int.Parse(magic);
+            
             int G = int.Parse(guess);
 
         }
