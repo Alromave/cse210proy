@@ -1,0 +1,16 @@
+public class Entry
+{    
+    public string Date;
+    public string Prompt;
+    public string entry;
+
+    public Entry(){
+        PromptGenerator promptGenerator = new PromptGenerator();
+        Date = DateTime.Now.ToString("MM/dd/yyyy");
+        Prompt = promptGenerator.getRandomPrompt();
+    }
+
+    public void setEntry(string new_entry){
+        entry = new_entry;
+    }
+}
