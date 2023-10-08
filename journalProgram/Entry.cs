@@ -13,4 +13,8 @@ public class Entry
     public void setEntry(string new_entry){
         entry = new_entry;
     }
+
+    public void setDate(string new_date){
+        Date = new_date;
+    }
 }
