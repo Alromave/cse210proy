@@ -33,7 +33,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Fail, try again")
+                Console.WriteLine("Fail, try again");
             }
 
 
