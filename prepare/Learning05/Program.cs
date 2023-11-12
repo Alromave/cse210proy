@@ -20,8 +20,8 @@ class Program
 
             double area = s.GetArea();
             Console.WriteLine($"The {color} shape has an area of {area}");
-            Console.WriteLine("Thank you");
-            Console.WriteLine("This is the final");
+            
+            
         }
         
     }  
